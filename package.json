@@ -4,6 +4,7 @@
   "private": true,
   "description": "Minimalist full-stack Customer Support Ticketing system with React and Node.js Express",
   "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
     "server": "npm --prefix backend start",
     "server:dev": "npm --prefix backend run dev",
     "client": "npm --prefix frontend run dev",

@@ -1,0 +1,12 @@
+{
+  "name": "customer-support-ticketing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimalist full-stack Customer Support Ticketing system with React and Node.js Express",
+  "scripts": {
+    "server": "npm --prefix backend start",
+    "server:dev": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "client:build": "npm --prefix frontend run build"
+  }
+}
